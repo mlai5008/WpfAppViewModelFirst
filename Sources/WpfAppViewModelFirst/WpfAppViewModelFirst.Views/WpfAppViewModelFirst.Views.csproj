@@ -1,10 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UseWPF>true</UseWPF>
+	  <UseWPF>true</UseWPF>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath>..\WpfAppViewModelFirst\bin\$(Configuration)\</OutputPath>
+	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.4.0" />
@@ -13,5 +16,4 @@
   <ItemGroup>
     <ProjectReference Include="..\WpfAppViewModelFirst.Infrastructure\WpfAppViewModelFirst.Infrastructure.csproj" />
   </ItemGroup>
-
 </Project>

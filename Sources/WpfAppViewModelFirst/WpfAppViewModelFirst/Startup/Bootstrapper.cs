@@ -1,12 +1,13 @@
-﻿using Autofac;
+﻿using System.Reflection;
+using Autofac;
 
 namespace WpfAppViewModelFirst.Startup
 {
     public class Bootstrapper
     {
         #region Consts
-        private const string ViewModelsAssembly = "WpfAppUseDataTemplateWithOutDataContext.ViewModels.dll";
-        private const string ViewsAssembly = "WpfAppUseDataTemplateWithOutDataContext.Views.dll";
+        private const string ViewModelsAssembly = "WpfAppViewModelFirst.ViewModels.dll";
+        private const string ViewsAssembly = "WpfAppViewModelFirst.Views.dll";
         #endregion
 
         #region Methods
@@ -30,7 +31,7 @@ namespace WpfAppViewModelFirst.Startup
 
         private void RegisterAssemblyModules(ContainerBuilder builder)
         {
-
+            builder.RegisterAssemblyModules(Assembly.LoadFrom(ViewsAssembly));
         } 
         #endregion
     }
