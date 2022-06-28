@@ -1,5 +1,5 @@
-﻿using System.Reflection;
-using Autofac;
+﻿using Autofac;
+using System.Reflection;
 
 namespace WpfAppViewModelFirst.Startup
 {
@@ -31,7 +31,10 @@ namespace WpfAppViewModelFirst.Startup
 
         private void RegisterAssemblyModules(ContainerBuilder builder)
         {
-            builder.RegisterAssemblyModules(Assembly.LoadFrom(ViewsAssembly));
+            foreach (string assembly in new string[]{ ViewsAssembly, ViewModelsAssembly })
+            {
+                builder.RegisterAssemblyModules(Assembly.LoadFrom(assembly));
+            }
         } 
         #endregion
     }

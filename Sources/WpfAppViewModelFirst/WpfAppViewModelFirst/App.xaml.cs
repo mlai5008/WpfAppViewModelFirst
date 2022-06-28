@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using System.Windows;
+using WpfAppViewModelFirst.Infrastructure.Interfaces.ViewModels;
 using WpfAppViewModelFirst.Infrastructure.Interfaces.Views;
 using WpfAppViewModelFirst.Startup;
 
@@ -16,7 +17,7 @@ namespace WpfAppViewModelFirst
             IContainer container = bootstrapper.Bootstrap();
 
             IMainWindow mainWindow = container.Resolve<IMainWindow>();
-            //mainWindow.DataContext = container.Resolve<IMainViewModel>();
+            mainWindow.DataContext = container.Resolve<IMainViewModel>();
             mainWindow.Show();
 
             base.OnStartup(e);

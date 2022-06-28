@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Infrastructure", "03_Inf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppViewModelFirst.Infrastructure", "WpfAppViewModelFirst.Infrastructure\WpfAppViewModelFirst.Infrastructure.csproj", "{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_ViewModels", "02_ViewModels", "{452A5CE1-A73D-4625-82D5-30C72FEB4C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppViewModelFirst.ViewModels", "WpfAppViewModelFirst.ViewModels\WpfAppViewModelFirst.ViewModels.csproj", "{CF99685C-B19F-43F0-B548-2AB7C9D7D515}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF99685C-B19F-43F0-B548-2AB7C9D7D515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF99685C-B19F-43F0-B548-2AB7C9D7D515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF99685C-B19F-43F0-B548-2AB7C9D7D515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF99685C-B19F-43F0-B548-2AB7C9D7D515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{BA568BE5-3F77-42C1-A181-ED0E0334C1AD} = {C89217CD-ABE7-444E-9402-3F136A2BAC16}
 		{D920A899-A827-4D8E-9399-DD92580C4BED} = {F1B4FACE-36DD-4B65-A88A-596DC9B4C979}
 		{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA} = {4FB40958-CE79-4EFC-8CC0-D72FF21592CA}
+		{CF99685C-B19F-43F0-B548-2AB7C9D7D515} = {452A5CE1-A73D-4625-82D5-30C72FEB4C2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39BF7A77-BB61-4D23-B628-C3E55F375575}

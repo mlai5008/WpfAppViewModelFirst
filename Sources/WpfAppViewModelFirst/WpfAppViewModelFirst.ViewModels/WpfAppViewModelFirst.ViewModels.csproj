@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath>..\WpfAppViewModelFirst\bin\$(Configuration)\</OutputPath>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WpfAppViewModelFirst.Infrastructure\WpfAppViewModelFirst.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
