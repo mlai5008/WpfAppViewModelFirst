@@ -1,0 +1,6 @@
+https://www.codeproject.com/Articles/444371/Creating-WPF-Data-Templates-in-Code-The-Right-Way
+
+https://ikriv.com/dev/wpf/DataTemplateCreation/
+
+https://badecho.com/2012/07/adding-interface-support-to-datatemplates/
+
