@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Shell", "00_Shell", "{C8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Views", "01_Views", "{F1B4FACE-36DD-4B65-A88A-596DC9B4C979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppViewModelFirst.Views", "WpfAppViewModelFirst.Views\WpfAppViewModelFirst.Views.csproj", "{D920A899-A827-4D8E-9399-DD92580C4BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppViewModelFirst.Views", "WpfAppViewModelFirst.Views\WpfAppViewModelFirst.Views.csproj", "{D920A899-A827-4D8E-9399-DD92580C4BED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Infrastructure", "03_Infrastructure", "{4FB40958-CE79-4EFC-8CC0-D72FF21592CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppViewModelFirst.Infrastructure", "WpfAppViewModelFirst.Infrastructure\WpfAppViewModelFirst.Infrastructure.csproj", "{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppViewModelFirst.Infrastructure", "WpfAppViewModelFirst.Infrastructure\WpfAppViewModelFirst.Infrastructure.csproj", "{DAF6EF40-376C-494E-A98C-E7E1C16ABCCA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_ViewModels", "02_ViewModels", "{452A5CE1-A73D-4625-82D5-30C72FEB4C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppViewModelFirst.ViewModels", "WpfAppViewModelFirst.ViewModels\WpfAppViewModelFirst.ViewModels.csproj", "{CF99685C-B19F-43F0-B548-2AB7C9D7D515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppViewModelFirst.ViewModels", "WpfAppViewModelFirst.ViewModels\WpfAppViewModelFirst.ViewModels.csproj", "{CF99685C-B19F-43F0-B548-2AB7C9D7D515}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -9,6 +9,7 @@ namespace WpfAppViewModelFirst.ViewModels
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<MainViewModel>().As<IMainViewModel>().SingleInstance();
+            builder.RegisterType<BlackViewModel>().As<IBlackViewModel>().SingleInstance();
 
             base.Load(builder);
         }

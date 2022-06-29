@@ -8,9 +8,11 @@ namespace WpfAppViewModelFirst.Views.Views
     /// </summary>
     public partial class MainWindow : Window, IMainWindow
     {
+        #region Methods
         public MainWindow()
         {
             InitializeComponent();
-        }
+        } 
+        #endregion
     }
 }
