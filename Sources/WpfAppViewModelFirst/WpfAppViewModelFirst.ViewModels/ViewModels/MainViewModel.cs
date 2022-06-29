@@ -1,5 +1,5 @@
 ﻿using WpfAppViewModelFirst.Infrastructure.Interfaces.ViewModels;
-using WpfAppViewModelFirst.ViewModels.ViewModels.Base;
+using WpfAppViewModelFirst.Infrastructure.ViewModels.Base;
 
 namespace WpfAppViewModelFirst.ViewModels.ViewModels
 {

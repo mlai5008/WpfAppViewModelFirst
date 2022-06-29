@@ -8,6 +8,7 @@ namespace WpfAppViewModelFirst.Startup
         #region Consts
         private const string ViewModelsAssembly = "WpfAppViewModelFirst.ViewModels.dll";
         private const string ViewsAssembly = "WpfAppViewModelFirst.Views.dll";
+        private const string CustomizationAssembly = "WpfAppViewModelFirst.Customization.dll";
         #endregion
 
         #region Methods
@@ -21,7 +22,12 @@ namespace WpfAppViewModelFirst.Startup
 
         private void RegisterAssemblyModules(ContainerBuilder builder)
         {
-            foreach (string assembly in new string[]{ ViewsAssembly, ViewModelsAssembly })
+            foreach (string assembly in new string[]
+            {
+                ViewsAssembly,
+                ViewModelsAssembly,
+                CustomizationAssembly
+            })
             {
                 builder.RegisterAssemblyModules(Assembly.LoadFrom(assembly));
             }

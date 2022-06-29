@@ -1,16 +1,16 @@
 ﻿using WpfAppViewModelFirst.Infrastructure.Interfaces.ViewModels;
 using WpfAppViewModelFirst.Infrastructure.ViewModels.Base;
 
-namespace WpfAppViewModelFirst.ViewModels.ViewModels
+namespace WpfAppViewModelFirst.Customization.ViewModels
 {
-    public class WhiteViewModel : BaseViewModel, IWhiteViewModel
+    public class BlackViewModel : BaseViewModel, IBlackViewModel
     {
         #region Fields
-        private string _propA = "WhiteViewModel";
+        private string _propA = "BlackViewModel with Customization";
         #endregion
 
         #region Ctor
-        public WhiteViewModel()
+        public BlackViewModel()
         { }
         #endregion
 
