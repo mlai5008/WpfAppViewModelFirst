@@ -20,6 +20,8 @@ namespace WpfAppViewModelFirst
 
             DataTemplateManager dataTemplateManager = new DataTemplateManager();
             dataTemplateManager.RegisterDataTemplate(typeof(IBlackViewModel), container.Resolve<IBlackView>());
+            dataTemplateManager.RegisterDataTemplate(typeof(IWhiteViewModel), container.Resolve<IWhiteView>());
+
 
             IMainWindow mainWindow = container.Resolve<IMainWindow>();
             mainWindow.DataContext = container.Resolve<IMainViewModel>();

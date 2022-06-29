@@ -7,12 +7,14 @@ namespace WpfAppViewModelFirst.ViewModels.ViewModels
     {
         #region Fields
         private IBlackViewModel _blackViewModel;
+        private IWhiteViewModel _whiteViewModel;
         #endregion
 
         #region Ctor
-        public MainViewModel(IBlackViewModel blackViewModel)
+        public MainViewModel(IBlackViewModel blackViewModel, IWhiteViewModel whiteViewModel)
         {
             _blackViewModel = blackViewModel;
+            _whiteViewModel = whiteViewModel;
         }
         #endregion
 
@@ -25,7 +27,17 @@ namespace WpfAppViewModelFirst.ViewModels.ViewModels
                 _blackViewModel = value;
                 OnPropertyChanged();
             }
-        } 
+        }
+
+        public IWhiteViewModel WhiteViewModel
+        {
+            get => _whiteViewModel;
+            set
+            {
+                _whiteViewModel = value;
+                OnPropertyChanged();
+            }
+        }
         #endregion
     }
 }

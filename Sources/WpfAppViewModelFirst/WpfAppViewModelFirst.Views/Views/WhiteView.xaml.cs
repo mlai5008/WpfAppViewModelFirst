@@ -4,15 +4,15 @@ using WpfAppViewModelFirst.Infrastructure.Interfaces.Views;
 namespace WpfAppViewModelFirst.Views.Views
 {
     /// <summary>
-    /// Логика взаимодействия для BlackView.xaml
+    /// Логика взаимодействия для WhiteView.xaml
     /// </summary>
-    public partial class BlackView : UserControl, IBlackView
+    public partial class WhiteView : UserControl, IWhiteView
     {
         #region Ctor
-        public BlackView()
+        public WhiteView()
         {
             InitializeComponent();
-        }
+        } 
         #endregion
     }
 }

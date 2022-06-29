@@ -9,12 +9,17 @@
         Height="450"
         Width="800"
         WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="RosyBrown">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width = "*"/>
             <ColumnDefinition Width = "*"/>
         </Grid.ColumnDefinitions>
         <ContentControl Grid.Column="0" Content="{Binding Path=BlackViewModel}" Margin="5">
+            <ContentControl.ContentTemplateSelector>
+                <selector:ViewTemplateSelector />
+            </ContentControl.ContentTemplateSelector>
+        </ContentControl>
+        <ContentControl Grid.Column="1" Content="{Binding Path=WhiteViewModel}" Margin="5">
             <ContentControl.ContentTemplateSelector>
                 <selector:ViewTemplateSelector />
             </ContentControl.ContentTemplateSelector>

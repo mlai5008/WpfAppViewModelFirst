@@ -11,6 +11,7 @@ namespace WpfAppViewModelFirst.Views
         {
             builder.RegisterType<MainWindow>().As<IMainWindow>().SingleInstance();
             builder.RegisterType<BlackView>().As<IBlackView>().SingleInstance();
+            builder.RegisterType<WhiteView>().As<IWhiteView>().SingleInstance();
 
             base.Load(builder);
         } 
